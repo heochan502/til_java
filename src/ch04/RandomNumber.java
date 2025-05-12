@@ -5,7 +5,7 @@ import java.sql.Time;
 public class RandomNumber {
     public static void main (String[] args)
     {
-        //API, Math.random()<-메소드임, 0.000000000 ~ 0.99999999
+        //API, Math.random()<-메소드임, 0.000000000 ~ 0.99999999, 절대 1안나온다
         System.out.println(Math.random());
 
         double value = 0.9999;
