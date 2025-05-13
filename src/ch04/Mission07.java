@@ -1,7 +1,6 @@
 package ch04;
-import java.util.Scanner;
 
-public class Mission06 {
+public class Mission07 {
     public static void main(String[] args)
     {
         int starCount = (int)(Math.random() * 6.0) + 2; // 1) 2~7사이 랜덤값
