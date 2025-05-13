@@ -15,9 +15,11 @@ public class Mission08 {
         */
         // 1부터 100까지 다더한값
         int sum=0;
-        for (int i=0 ; i<=100; i++)
+        for (int i=1 ; i<=100; i++)
         {
-            sum+=i;
+            sum += i;
+            //sum = sum + i;
+            System.out.printf("%d 회차의 값 : %d \n",i, sum);
         }
         System.out.printf("%d", sum);
     }
