@@ -21,8 +21,28 @@ public class Mission13 {
         */
 
         int star = (int)(Math.random()*6.0) + 3;
+        String _star = "*";
+        System.out.printf(" %d ", star);
+
+        for (int i=0; i<=star; i++)
+        {
+            for (int j=0 ; j<i ; j++)
+            {
+                System.out.printf("%s", _star);
+            }
+            System.out.println();
+        }
 
 
+        for (int i=star; i>0; i--)
+        {
+            for (int j=0 ; j<i ; j++)
+            {
+                if
+                System.out.printf("%s", _star);
+            }
+            System.out.println();
+        }
 
 
     }
