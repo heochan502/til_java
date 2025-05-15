@@ -22,8 +22,9 @@ public class Mission13 {
 
         int star = (int)(Math.random()*6.0) + 3;
         String _star = "*";
-        System.out.printf(" %d ", star);
-
+        String _bl = " ";
+        System.out.printf(" %d \n", star);
+/*
         for (int i=0; i<=star; i++)
         {
             for (int j=0 ; j<i ; j++)
@@ -32,14 +33,24 @@ public class Mission13 {
             }
             System.out.println();
         }
+*/
 
-
-        for (int i=star; i>0; i--)
+        for (int i=star; i> 0; i--)
         {
-            for (int j=0 ; j<i ; j++)
+            for (int j=0 ; j<star ; j++)
             {
-                if
-                System.out.printf("%s", _star);
+                //System.out.printf("%d", i );
+                System.out.printf("%s", ( (star - i) >j  ) ? _bl : _star );
+            }
+            System.out.println();
+        }
+
+        for (int i=star; i> 0; i--)
+        {
+            for (int j=0 ; j<star ; j++)
+            {
+                //System.out.printf("%d", i );
+                System.out.printf("%s", ( (star - i) >j  ) ?  _star :_bl );
             }
             System.out.println();
         }
