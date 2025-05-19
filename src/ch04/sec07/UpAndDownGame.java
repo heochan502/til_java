@@ -14,9 +14,9 @@ public class UpAndDownGame {
             in_num = scanner.nextInt();
             if (in_num == num) {
                 System.out.println("정답!! "+ num);
-                break;
+                break; // break를 감싸고 있는 가장 가까운 반복문을 빠져나온다.
             }
-            System.out.printf(" %s! \n", (in_num > num) ?"Down" : "Up" );
+            System.out.printf("- %s! \n", (in_num > num) ?"Down" : "Up" );
         }
     }
 }
