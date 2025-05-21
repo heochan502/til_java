@@ -22,7 +22,6 @@ public class NumberBaseballGame {
         }
         System.out.println(Arrays.toString(answerArr));
 
-
         Scanner scanner = new Scanner(System.in);
         while(true){
             System.out.printf("숫자 %d개를 입력 ", answerArr.length);
@@ -38,8 +37,6 @@ public class NumberBaseballGame {
             {
                 inputArr[i] = Integer.parseInt(inputStrArr[i]);
             }
-
-
            //System.out.println(Arrays.toString(inputArr));
             int s = 0;
             int b =0;
@@ -50,7 +47,6 @@ public class NumberBaseballGame {
                         if (i==k){s++;}
                         else {b++;}
                     }
-
                 }
             }
             if (s== answerArr.length){
